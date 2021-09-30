@@ -1,0 +1,861 @@
+
+.logo {
+    width: 50px;
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    width: 100%;
+    object-fit: contain;
+}
+nav{
+    width: 100%;
+    height: 50px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    background: rgb(26,25,30);
+    top: 0px;
+    transition: 1s ease;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding:10px 0px;
+    margin-right: 40px;
+
+}
+.menu a:hover{
+    cursor: pointer;
+   
+    border-bottom: solid 5px #ffcf00;
+    transition: .5s ease;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    scroll-behavior: smooth;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    
+    background: url("bg.png") no-repeat center center/cover;
+    background-attachment: fixed;
+   
+}
+.techsnap h1{
+    color:white;
+    text-align: center;
+    font-family:'Montserrat',sans-serif;
+    font-size:63px;
+    margin-top:50px;
+    padding-top: 50px;
+    width: 100%;
+    /* letter-spacing: 5px; */
+    font-weight: bold;
+}
+.techsnap h3{
+    color:white;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-size: 28px;
+    padding-top: 11.5rem;
+    position: absolute;
+    bottom: 50px;
+    left: 11%;
+    
+}
+.techsnap h3 span{
+    color: rgb(19,88,219);
+}
+.button{
+    display: flex;
+   
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: red;
+    justify-content: center;
+}
+.button a{
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+}
+#content{
+    margin: 34px;
+    display: flex;
+    background-color: white;
+}
+#content .box{ 
+    
+    padding: 34px;
+    margin: 2px 30px;
+   
+}
+
+#content .box img{ 
+   height: 300px;
+   margin: 0 auto;
+   padding-top: 60px;
+}
+#content .box h2{
+    font-family: Helvetica,Arial,sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    font-size: 1.857rem;
+    line-height: 2.711rem;
+
+}
+#content .box h4{
+    padding-top: 30px;
+    font-family: merriweather;
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    font-size: 1rem;
+    line-height: 1.71428571;
+}
+#content .box h4 span{
+    padding-top: 30px;
+    border-top: solid 5px #ffcf00;
+}
+#about{
+    margin: 0%;
+    display: flex;
+    background-color:rgb(19,88,219);
+
+}
+#about .box{ 
+    
+    padding: 34px;
+    margin: 2px 30px;
+    line-height: 5px;
+   
+}
+
+#about .box img{ 
+   height: 470px;
+   margin: auto;
+   display: block;
+   padding-top: 100px;
+}
+#about .box h2{
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 30px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#about .box h3{
+    font-size: 21px;
+    font-weight: 600;
+    padding: 30px 0px 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#about .box h4{
+    font-size: 1rem;
+    font-family: merriweather;
+    font-weight: 400;
+    color: white;
+}
+#about .box h2 span{
+    padding-bottom: 30px;
+    border-bottom: solid 5px #ffcf00;
+
+
+}
+.container{
+    padding-bottom: 100px;
+    padding-left: 50px;
+    size: 50px;
+}
+#empower{
+    margin: 34px;
+    display: flex;
+    background-color: white;
+}
+#empower .box{ 
+    
+    padding: 34px;
+    margin: 2px 30px;
+   
+}
+
+#empower .box img{ 
+   height: 300px;
+   margin: 0 auto;
+   padding-top: 40px;
+}
+#empower .box h2{
+    font-family: Helvetica,Arial,sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    font-size: 1.857rem;
+    line-height: 2.711rem;
+    padding-left: 30px;
+    padding-bottom: 10px;
+
+}
+#empower .box h4{
+    padding-top: 30px;
+    font-family: merriweather;
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    font-size: 1rem;
+    line-height: 1.71428571;
+    padding-left: 30px;
+}
+#empower .box h4 span{
+    padding-top: 30px;
+    border-top: solid 5px #ffcf00;
+}
+#empower .box button{
+    background-color: rgb(19,88,219);
+    margin-top: 36px;
+    min-width: 225px;
+    justify-content: center;
+    padding:10px;
+    color: white;
+    border:rgb(19,88,219) ;
+    border-radius: 5px;
+}
+#empower .box button:hover{
+    cursor: pointer;
+}
+
+#empower-1 {
+        /* margin: 34px; */
+    background-color: #888;
+    display: flex;
+    
+}
+#empower-1 .box{ 
+    
+    padding: 34px;
+    margin: 2px 30px;
+   
+}
+
+#empower-1 .box img{ 
+   height: 300px;
+   margin: 0 auto;
+   padding-top: 40px;
+}
+#empower-1 .box h2{
+    font-family: Helvetica,Arial,sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    font-size: 1.857rem;
+    line-height: 2.711rem;
+    padding-left: 30px;
+    padding-bottom: 10px;
+
+}
+#empower-1 .box h4{
+    padding-top: 30px;
+    font-family: merriweather;
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    font-size: 1rem;
+    line-height: 1.71428571;
+    padding-left: 30px;
+}
+#empower-1 .box h4 span{
+    padding-top: 30px;
+    border-top: solid 5px #ffcf00;
+}
+#empower-1 .box button{
+    background-color: rgb(19,88,219);
+    margin-top: 36px;
+    min-width: 225px;
+    justify-content: center;
+    padding:10px;
+    color: white;
+    border:rgb(19,88,219) ;
+    border-radius: 5px;
+}
+#empower-1 .box button:hover{
+    cursor: pointer;
+}
+
+#empower-2{
+    /* margin: 34px; */
+    display: flex;
+    background-color: white;
+}
+#empower-2 .box{ 
+    
+    padding: 34px;
+    margin: 2px 30px;
+   
+}
+
+#empower-2 .box img{ 
+   height: 300px;
+   margin: 0 auto;
+   padding-top: 40px;
+}
+#empower-2 .box h2{
+    font-family: Helvetica,Arial,sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    font-size: 1.857rem;
+    line-height: 2.711rem;
+    padding-left: 30px;
+    padding-bottom: 10px;
+
+}
+#empower-2 .box h4{
+    padding-top: 30px;
+    font-family: merriweather;
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    font-size: 1rem;
+    line-height: 1.71428571;
+    padding-left: 30px;
+}
+#empower-2 .box h4 span{
+    padding-top: 30px;
+    border-top: solid 5px #ffcf00;
+}
+#empower-2 .box button{
+    background-color: rgb(19,88,219);
+    margin-top: 36px;
+    min-width: 225px;
+    justify-content: center;
+    padding:10px;
+    color: white;
+    border:rgb(19,88,219) ;
+    border-radius: 5px;
+}
+#empower-2 .box button:hover{
+    cursor: pointer;
+}
+#empower-3{
+    /* margin: 34px; */
+    display: flex;
+    background-color: #888;
+}
+#empower-3 .box{ 
+    
+    padding: 34px;
+    margin: 2px 30px;
+   
+}
+
+#empower-3 .box img{ 
+   height: 300px;
+   margin: 0 auto;
+   padding-top: 40px;
+}
+#empower-3 .box h2{
+    font-family: Helvetica,Arial,sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    font-size: 1.857rem;
+    line-height: 2.711rem;
+    padding-left: 30px;
+    padding-bottom: 10px;
+
+}
+#empower-3 .box h4{
+    padding-top: 30px;
+    font-family: merriweather;
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    font-size: 1rem;
+    line-height: 1.71428571;
+    padding-left: 30px;
+}
+#empower-3 .box h4 span{
+    padding-top: 30px;
+    border-top: solid 5px #ffcf00;
+}
+#empower-3 .box button{
+    background-color: rgb(19,88,219);
+    margin-top: 36px;
+    min-width: 225px;
+    justify-content: center;
+    padding:10px;
+    color: white;
+    border:rgb(19,88,219) ;
+    border-radius: 5px;
+}
+#empower-3 .box button:hover{
+    cursor: pointer;
+}
+p{
+    padding: 10px;
+
+}
+.white{
+    background-color: black;
+
+    
+}
+#nav-toggle {
+	position: absolute;
+	top: -100px;
+}
+nav .icon-burger {
+	display: none;
+	position: absolute;
+	right: 5%;
+	top: 50%;
+	transform: translateY(-50%);
+}
+nav .icon-burger .line {
+	width: 30px;
+	height: 5px;
+	background-color: yellow;
+	margin: 5px;
+	border-radius: 3px;
+	transition: all .3s ease-in-out;
+}
+
+
+
+     /* _____________________________________________________________________________________________________________________________
+
+
+     DEVICES  SMALLER THAN  768PX
+
+     _____________________________________________________________________________________________________________________________ */
+
+     @media only screen and (max-width:768px){
+
+        
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    scroll-behavior: smooth;
+}
+.logo {
+    width: 100px;
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    width: 100%;
+    object-fit: contain;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background: url("bg.png") no-repeat center center/contain;
+    
+    background-attachment: fixed;
+   
+
+}
+nav{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    transition: 1s ease;
+
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding:10px 0px;
+    margin-right: 40px;
+    
+
+
+}
+.menu a:hover{
+    cursor: pointer;
+   
+    border-bottom: solid 5px #ffcf00;
+    transition: .5s ease;
+}
+p{
+    padding: 10px;
+
+}
+.white{
+    background-color: black;
+    
+}
+.techsnap h1{
+    color:white;
+    text-align: center;
+    font-family:'ontserrat',sans-serif;
+    font-size:75px;
+    top:80px ;
+    /* margin-top: 100px; */
+}
+.techsnap h3{
+    color:white;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-size: 30px;
+}
+.techsnap h3 span{
+    color: rgb(19,88,219);
+}
+.button{
+    display: flex;
+   
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: red;
+    justify-content: center;
+    display: none;
+}
+.button a{
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+}
+#content{
+    margin: 34px;
+    display:block;
+    background-color: white;
+}
+#content .box{ 
+    
+    /* padding: 34px; */
+    margin: 2px 15px;
+   
+}
+
+#content .box img{ 
+    height: 200px;
+   padding-top: 30px;
+}
+#content .box h2{
+    font-family: Helvetica,Arial,sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    font-size: 1.857rem;
+    line-height: 2.711rem;
+
+}
+#content .box h4{
+    padding-top: 30px;
+    font-family: merriweather;
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    font-size: 1rem;
+    line-height: 1.71428571;
+}
+#content .box h4 span{
+    padding-top: 30px;
+    border-top: solid 5px #ffcf00;
+}
+
+
+
+
+#about{
+    margin: 0%;
+    display: block;
+    background-color:rgb(19,88,219);
+
+}
+#about .box{ 
+    
+    /* padding: 34px; */
+    margin: 2px 18px;
+    line-height: 5px;
+   
+}
+
+#about .box img{ 
+   height: 200px;
+   margin: auto;
+   display: block;
+   padding: 30px 0px;
+}
+#about .box h2{
+    font-size: 25px;
+    padding-bottom: 30px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#about .box h3{
+    font-size: 21px;
+    font-weight: 600;
+    padding: 30px 0px 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#about .box h4{
+    font-size: 1rem;
+    font-family: merriweather;
+    font-weight: 400;
+    color: white;
+    padding-bottom: 10px;
+}
+#about .box h2 span{
+    padding-bottom: 30px;
+    border-bottom: solid 5px #ffcf00;
+
+
+}
+
+#empower{
+    margin: 34px;
+    display:block;
+    background-color: white;
+}
+#empower .box{ 
+    
+    /* padding: 34px; */
+    margin: 2px 15px;
+   
+}
+
+#empower .box img{ 
+    height: 200px;
+    padding-top: 30px;
+}
+#empower .box h2{
+    font-family: Helvetica,Arial,sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    font-size: 1.857rem;
+    line-height: 2.711rem;
+    padding-bottom: 10px;
+
+}
+#empower .box h4{
+    padding-top: 30px;
+    font-family: merriweather;
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    font-size: 1rem;
+    line-height: 1.71428571;
+}
+#empower .box h4 span{
+    padding-top: 30px;
+    border-top: solid 5px #ffcf00;
+}
+
+
+#empower-1{
+    /* margin: 34px; */
+    display:block;
+    background-color: #888;
+}
+#empower-1 .box{ 
+    
+    /* padding: 34px; */
+    margin: 2px 15px;
+   
+}
+
+#empower-1 .box img{ 
+   height: 200px;
+   padding-top: 30px;
+   
+}
+#empower-1 .box h2{
+    font-family: Helvetica,Arial,sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    font-size: 1.857rem;
+    line-height: 2.711rem;
+    padding-bottom: 10px;
+
+}
+#empower-1 .box h4{
+    padding-top: 30px;
+    font-family: merriweather;
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    font-size: 1rem;
+    line-height: 1.71428571;
+}
+#empower-1 .box h4 span{
+    padding-top: 30px;
+    border-top: solid 5px #ffcf00;
+}
+
+#empower-2{
+    margin: 34px;
+    display:block;
+    background-color: white;
+}
+#empower-2 .box{ 
+    
+    /* padding: 34px; */
+    margin: 2px 15px;
+   
+}
+
+#empower-2 .box img{ 
+    height: 200px;
+    padding-top: 30px;
+}
+#empower-2 .box h2{
+    font-family: Helvetica,Arial,sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    font-size: 1.857rem;
+    line-height: 2.711rem;
+    padding-bottom: 10px;
+
+}
+#empower-2 .box h4{
+    padding-top: 30px;
+    font-family: merriweather;
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    font-size: 1rem;
+    line-height: 1.71428571;
+}
+#empower-2 .box h4 span{
+    padding-top: 30px;
+    border-top: solid 5px #ffcf00;
+}
+
+#empower-3{
+    margin: 34px;
+    display:block;
+    background-color: #888;
+}
+#empower-3 .box{ 
+    
+    /* padding: 34px; */
+    margin: 2px 15px;
+   
+}
+
+#empower-3 .box img{ 
+    height: 200px;
+    padding-top: 30px;
+}
+#empower-3 .box h2{
+    font-family: Helvetica,Arial,sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    font-size: 1.857rem;
+    line-height: 2.711rem;
+    padding-bottom: 10px;
+
+}
+#empower-3 .box h4{
+    padding-top: 30px;
+    font-family: merriweather;
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    font-size: 1rem;
+    line-height: 1.71428571;
+}
+#empower-3 .box h4 span{
+    padding-top: 30px;
+    border-top: solid 5px #ffcf00;
+}
+
+
+
+
+.facts-box{
+   padding: 50px 50px 0px 30px;
+
+}
+
+nav .logo {
+    float: none;
+    width: auto;
+    justify-content: center;
+    width: 100px;
+    display: flex;
+    align-items: center;
+}
+nav .menu {
+    float: none;
+    position: fixed;
+    z-index: 9;
+    left: 0;
+    right: 0;
+    top: 100px;
+    bottom: 100%;
+    width: auto;
+    height: auto;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: black;
+    overflow: hidden;
+    box-sizing: border-box;
+    transition: all .5s ease-in-out;
+}
+nav .menu a {
+    font-size: 20px;
+    display: block;
+    text-align: center;
+    padding: 25px 0px;
+
+}
+nav :checked ~ .menu {
+    bottom: 0;
+}
+nav .icon-burger {
+    display: block;
+}
+nav :checked ~ .icon-burger .line:nth-child(1) {
+    transform: translateY(10px) rotate(225deg);
+}
+nav :checked ~ .icon-burger .line:nth-child(3) {
+    transform: translateY(-10px) rotate(-225deg);
+}
+nav :checked ~ .icon-burger .line:nth-child(2) {
+    opacity: 0;
+}
+
+}
+     
