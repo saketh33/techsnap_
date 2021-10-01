@@ -411,10 +411,7 @@ header .button{
 #empower-3 .box button:hover{
     cursor: pointer;
 }
-p{
-    padding: 10px;
 
-}
 .white{
     background-color: black;
 
@@ -471,7 +468,7 @@ nav .icon-burger .line {
 
      _____________________________________________________________________________________________________________________________ */
 
-     @media only screen and (max-width:768px){
+     @media only screen and (max-width:1024px){
 
         
 *{
@@ -480,6 +477,7 @@ nav .icon-burger .line {
 }
 body{
     scroll-behavior: smooth;
+    background-color: rgb(26,25,30);
 }
 .logo {
     width: 100px;
@@ -527,9 +525,11 @@ nav{
     border-bottom: solid 5px #ffcf00;
     transition: .5s ease;
 }
-p{
-    padding: 10px;
-
+.main-box{
+    background-color:white;
+    padding: 0px 0px 20px;
+    justify-content: center;
+    align-items: center;
 }
 .white{
     background-color: black;
@@ -541,24 +541,18 @@ p{
     font-family:'montserrat',sans-serif;
     font-size:50px;
     top:80px ;
-    background:rgb(26,25,30) repeat center center/contain;
-    /* padding: 30px 0px 120px; */
     margin: 50px 0px 70px;
     padding: 70px 0px;
-    /* margin-top: 100px; */
-    background-attachment: fixed;
+    
 }
 .techsnap h3{
     color:white;
     text-align: center;
     font-size: 1.5rem;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
-    background:rgb(26,25,30) repeat center center/contain;
+    font-family:'montserrat',sans-serif ;
     font-size: 30px;
-    margin-top: 150px;
-    padding-top: 40px;
-    background-attachment: fixed;
-    padding-bottom: 70px;
+    position: absolute;
+    bottom: 20%;
 }
 .techsnap h3 span{
     color: rgb(19,88,219);
@@ -566,10 +560,10 @@ p{
 .button{
     display: flex;
    
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'montserrat',sans-serif;
     background-color: red;
     justify-content: center;
-    display: none;
+    
 }
 .button a{
     color: white;
@@ -577,7 +571,7 @@ p{
     text-decoration: none;
 }
 #content{
-    margin: 34px;
+
     display:block;
     background-color: white;
 }
@@ -665,9 +659,8 @@ p{
 
 
 }
-
 #empower{
-    margin: 34px;
+    /* margin: 34px; */
     display:block;
     background-color: white;
 }
@@ -707,7 +700,6 @@ p{
     padding-top: 30px;
     border-top: solid 5px #ffcf00;
 }
-
 
 #empower-1{
     /* margin: 34px; */
@@ -753,7 +745,7 @@ p{
 }
 
 #empower-2{
-    margin: 34px;
+    /* margin: 34px; */
     display:block;
     background-color: white;
 }
@@ -795,7 +787,7 @@ p{
 }
 
 #empower-3{
-    margin: 34px;
+    /* margin: 34px; */
     display:block;
     background-color: #888;
 }
