@@ -24,13 +24,14 @@ nav{
     color: white;
     font-size: 20px;
     padding:10px 0px;
-    margin-right: 40px;
+    margin-right: 20px;
 
 }
 .menu a:hover{
     cursor: pointer;
    
-    border-bottom: solid 5px #ffcf00;
+    border-bottom: solid 5px #fc00a3;
+    border-radius: 5%;
     transition: .5s ease;
 }
 *{
@@ -42,7 +43,7 @@ body{
 }
 header{
     width: 100%;
-    height: 100vh;
+    height: 520px;
     
     background: url("bg.png") no-repeat center center/cover;
     background-attachment: fixed;
@@ -53,9 +54,10 @@ header{
     text-align: center;
     font-family:'Montserrat',sans-serif;
     font-size:63px;
-    margin-top:50px;
-    padding-top: 50px;
+    margin-top:55px;
+    padding-top: 40px;
     width: 100%;
+    padding-bottom: 30px;
     /* letter-spacing: 5px; */
     font-weight: bold;
 }
@@ -71,12 +73,15 @@ header{
 .techsnap h3 span{
     color: rgb(19,88,219);
 }
-.button{
+header .button{
     display: flex;
    
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(pink,violet);
+    background: linear-gradient(#fc00a3,#f800f8);
     justify-content: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 .button a{
     color: white;
@@ -87,6 +92,7 @@ header{
     margin: 34px;
     display: flex;
     background-color: white;
+    padding-top: 50px;
 }
 #content .box{ 
     
@@ -434,6 +440,28 @@ nav .icon-burger .line {
 	transition: all .3s ease-in-out;
 }
 
+.menu .login{
+    color: #fc00a3;
+    background-color: white;
+    padding: 3px 20px;
+    border-radius: 11%;
+}
+.menu .register{
+    background-color: #fc00a3;
+    padding: 5px 20px;
+    border-radius: 11%;
+}
+.menu .login:hover{
+    cursor: pointer;
+    padding: 5px 22px;
+    border-bottom: none;
+}
+.menu .login:hover{
+    cursor: pointer;
+    padding: 7px 22px;
+    border-bottom: none;
+}
+
 
 
      /* _____________________________________________________________________________________________________________________________
@@ -510,17 +538,27 @@ p{
 .techsnap h1{
     color:white;
     text-align: center;
-    font-family:'ontserrat',sans-serif;
-    font-size:75px;
+    font-family:'montserrat',sans-serif;
+    font-size:50px;
     top:80px ;
+    background:rgb(26,25,30) repeat center center/contain;
+    /* padding: 30px 0px 120px; */
+    margin: 50px 0px 70px;
+    padding: 70px 0px;
     /* margin-top: 100px; */
+    background-attachment: fixed;
 }
 .techsnap h3{
     color:white;
     text-align: center;
     font-size: 1.5rem;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    background:rgb(26,25,30) repeat center center/contain;
     font-size: 30px;
+    margin-top: 150px;
+    padding-top: 40px;
+    background-attachment: fixed;
+    padding-bottom: 70px;
 }
 .techsnap h3 span{
     color: rgb(19,88,219);
@@ -809,11 +847,12 @@ p{
 nav .logo {
     float: none;
     width: auto;
-    justify-content: center;
+    /* justify-content: center; */
     width: 100px;
     display: flex;
-    align-items: center;
+    /* align-items: center; */
 }
+
 nav .menu {
     float: none;
     position: fixed;
@@ -835,8 +874,12 @@ nav .menu a {
     font-size: 20px;
     display: block;
     text-align: center;
-    padding: 25px 0px;
+    padding: 20px 0px;
 
+}
+nav .menu .register,
+nav .menu .login{
+    margin: 20px 90px;
 }
 nav :checked ~ .menu {
     bottom: 0;
