@@ -22,7 +22,7 @@ nav{
 .menu a{
     text-decoration: none;
     color: white;
-    font-size: 20px;
+    font-size: 15px;
     padding:10px 0px;
     margin-right: 20px;
 
@@ -39,7 +39,7 @@ nav{
     margin: 0px;
 }
 body{
-    scroll-behavior: smooth;
+    scroll-behavior: auto;
 }
 header{
     width: 100%;
@@ -450,12 +450,10 @@ nav .icon-burger .line {
 }
 .menu .login:hover{
     cursor: pointer;
-    padding: 5px 22px;
     border-bottom: none;
 }
-.menu .login:hover{
+.menu .register:hover{
     cursor: pointer;
-    padding: 7px 22px;
     border-bottom: none;
 }
 
@@ -863,7 +861,7 @@ nav .menu {
     transition: all .5s ease-in-out;
 }
 nav .menu a {
-    font-size: 20px;
+    font-size: 14px;
     display: block;
     text-align: center;
     padding: 20px 0px;
