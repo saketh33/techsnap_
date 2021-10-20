@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;900&display=swap');
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
 
 .logo {
     width: 125px;
@@ -19,27 +25,14 @@ nav{
     top: 0px;
     transition: 1s ease;
 }
-.menu a{
-    text-decoration: none;
-    color: white;
-    font-size: 15px;
-    padding:10px 0px;
-    margin-right: 20px;
-
-}
-.menu a:hover{
-    cursor: pointer;
-   
-    border-bottom: solid 5px #fc00a3;
-    border-radius: 5%;
-    transition: .5s ease;
-}
 *{
     padding: 0px;
     margin: 0px;
 }
 body{
-    scroll-behavior: auto;
+    overflow-x: hidden;
+    min-width: 100vw;
+	height: 100%;
 }
 header{
     width: 100%;
